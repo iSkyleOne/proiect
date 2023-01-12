@@ -1,0 +1,53 @@
+Inchiriere Filme
+
+Database:
+- Filme
+- Clienti
+- Logs
+- Facturi
+- Review(s)
+
+
+Clienti:- id
+	- nume
+	- email
+	- parola
+	- data nastere (minim 14 ani)
+	- tip cont
+
+Filme: 	- id
+	- nume film
+	- data aparitie
+	- poza 1
+	- poza 2
+	- poza 3
+	- actori
+	- medie ratinguri de la reviews by default 0
+	- avalible (by default 1)
+	- pret inchiriere (cu posibilitate de a modifica)
+	- limita de varsta
+
+Reviews - id
+	- id client
+	- descriere
+	- rating (1/5)
+
+Facturi - id
+	- data
+	- client
+	- produs
+	- total
+
+
+Logs 	- id
+	- client (originator)
+	- descriere
+		"""
+		Admin a adaugat filmul x pe data de yyyy-MM-dd
+		x a inchiriat filmul pe data de yyyy-MM-dd
+		x a returnat filmul pe data de yyyy-MM-dd
+		
+		"""
+	- 
+
+	
